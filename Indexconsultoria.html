@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Consultora Digital</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background-color:#d8d6d2;
+            font-family:Arial, Helvetica, sans-serif;
+            color:#1f1f1f;
+        }
+
+        .page{
+            width:90%;
+            max-width:1300px;
+            margin:40px auto;
+            background-color:#f7f5f1;
+            border-radius:45px;
+            padding:40px;
+        }
+
+        /* NAV */
+
+        header{
+            margin-bottom:80px;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .logo{
+            font-size:14px;
+            font-weight:bold;
+            text-transform:uppercase;
+            letter-spacing:1px;
+        }
+
+        .nav-links{
+            display:flex;
+            gap:25px;
+            flex-wrap:wrap;
+        }
+
+        .nav-links a{
+            text-decoration:none;
+            color:#1f1f1f;
+            font-size:14px;
+            transition:0.3s;
+        }
+
+        .nav-links a:hover{
+            opacity:0.6;
+        }
+
+        /* HERO */
+
+        .hero{
+            text-align:center;
+            padding:100px 20px;
+        }
+
+        .hero h1{
+            font-size:68px;
+            line-height:1.1;
+            margin-bottom:30px;
+        }
+
+        .hero p{
+            max-width:760px;
+            margin:auto;
+            color:#666;
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        /* SECTIONS */
+
+        .section{
+            background-color:white;
+            border-radius:35px;
+            padding:75px 45px;
+            margin-bottom:70px;
+            text-align:center;
+        }
+
+        .section h2{
+            font-size:42px;
+            margin-bottom:25px;
+        }
+
+        .section p{
+            max-width:850px;
+            margin:auto;
+            color:#666;
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        /* TEAM */
+
+        .team-cards{
+            display:flex;
+            justify-content:center;
+            gap:50px;
+            flex-wrap:wrap;
+            margin-top:55px;
+            align-items:flex-start;
+        }
+
+        .member{
+            max-width:420px;
+            text-align:center;
+        }
+
+        .member img{
+            width:100%;
+            height:auto;
+            display:block;
+            border-radius:30px;
+            margin-bottom:25px;
+        }
+
+        .member h3{
+            font-size:28px;
+            margin-bottom:15px;
+        }
+
+        .member p{
+            color:#666;
+            line-height:1.8;
+            margin-bottom:25px;
+        }
+
+        .btn{
+            display:inline-block;
+            background-color:#1f1f1f;
+            color:white;
+            text-decoration:none;
+            padding:14px 28px;
+            border-radius:35px;
+            font-size:14px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            opacity:0.8;
+        }
+
+        /* FOOTER */
+
+        footer{
+            border-top:1px solid #ddd;
+            padding-top:25px;
+            display:flex;
+            justify-content:space-between;
+            gap:20px;
+            flex-wrap:wrap;
+            color:#666;
+            font-size:14px;
+        }
+
+        /* RESPONSIVE */
+
+        @media(max-width:768px){
+
+            .hero h1{
+                font-size:42px;
+            }
+
+            .section h2{
+                font-size:32px;
+            }
+
+            .page{
+                padding:25px;
+            }
+
+            nav{
+                justify-content:center;
+                text-align:center;
+            }
+
+            .nav-links{
+                justify-content:center;
+            }
+
+            .hero{
+                padding:70px 10px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="page">
+
+        <header>
+
+            <nav>
+
+                <div class="logo">
+                    Consultora Digital
+                </div>
+
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+
+            </nav>
+
+            <section class="hero">
+
+                <h1>
+                    Construimos marcas,<br>
+                    experiencias y proyectos digitales.
+                </h1>
+
+                <p>
+                    Somos estudiantes de Administración de Empresas en la Universidad Argentina de la Empresa.
+                    Nuestra consultora busca desarrollar soluciones digitales modernas, funcionales y visualmente profesionales.
+                </p>
+
+            </section>
+
+        </header>
+
+        <main>
+
+            <section class="section">
+
+                <h2>
+                    Sobre la consultora
+                </h2>
+
+                <p>
+                    Nuestro objetivo es combinar creatividad, comunicación y estrategia para desarrollar proyectos digitales modernos y organizados.
+                    Buscamos crear experiencias visuales minimalistas, responsive y alineadas a las nuevas tendencias del diseño web.
+                </p>
+
+            </section>
+
+            <section class="section">
+
+                <h2>
+                    Integrantes
+                </h2>
+
+                <p>
+                    Conocé a los integrantes de nuestra consultora y sus páginas personales publicadas en GitHub Pages.
+                </p>
+
+                <div class="team-cards">
+
+                    <div class="member">
+
+                        <img src="mariana.jpg" alt="Mariana Fernández Lara">
+
+                        <h3>
+                            Mariana Fernández Lara
+                        </h3>
+
+                        <p>
+                            Estudiante de Administración de Empresas en la Universidad Argentina de la Empresa.
+                        </p>
+
+                        <a class="btn"
+                        href="https://mfernandezlara99-stack.github.io/pagina-personal/"
+                        target="_blank">
+
+                            Ver página personal
+
+                        </a>
+
+                    </div>
+
+                    <div class="member">
+
+                        <img src="martin.jpg" alt="Juan Martín Brousset Maas">
+
+                        <h3>
+                            Juan Martín Brousset Maas
+                        </h3>
+
+                        <p>
+                            Estudiante de Administración de Empresas en la Universidad Argentina de la Empresa.
+                        </p>
+
+                        <a class="btn"
+                        href="https://martinbmaas-bot.github.io/desarrolloweb-broussetmaas/"
+                        target="_blank">
+
+                            Ver página personal
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <p>
+                © 2026 Consultora Digital
+            </p>
+
+            <p>
+                Diseño y Desarrollo Web — UADE
+            </p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
